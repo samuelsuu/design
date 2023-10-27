@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Nunito+Sans:ital,wght@0,300;1,400&family=Nunito:ital,wght@0,500;1,300&family=Open+Sans:wght@300&family=Playfair+Display:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.landing {
+  background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  height: 100vh;
+  color: white;
+}
+.land {
+  background: url(../images//yyy.png);
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
+}
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+.logo{
+  cursor: pointer;
+}
+
+/*  */
+
+.R {
+  font-size: 20px;
+  color: #dc3635;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+.C {
+  background: #dc3635;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 5px 8px;
+}
+.hero {
+  padding: 100px 600px 100px 200px;
+  line-height: 25px;
+}
+.H {
+  color: #dc3635;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.F {
+  color: #fef4e6;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+  margin-bottom: 20px;
+}
+button {
+  margin: 30px 0;
+  gap: 1rem;
+  cursor: pointer;
+}
+button:nth-child(1) {
+  background: #dc3635;
+  /* padding: 5px 10px; */
+  width: 189px;
+  height: 42px;
+  flex-shrink: 0;
+}
+button:nth-child(2) {
+  width: 189px;
+  height: 42px;
+  flex-shrink: 0;
+  margin: 0px 40px;
+}
+
+/* about */
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 100px 200px 50px 80px;
+}
+.about1{
+  background: #dc3635;
+  /* box-shadow: 20px 80px black; */
+  fill: #DC3635;
+stroke-width: 1px;
+stroke: #DC3635;
+box-shadow: 7px 10px 8px 4px rgba(0, 0, 0, 0.25) inset;
+border-radius: 250px 0px;
+cursor: pointer;
+}
+.about2{
+  line-height: 20px;
+}
+.about2 h2{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.about2 p{
+  padding-bottom: 20px;
+}
+#ui {
+  background: linear-gradient(to right, #DC3635 0%, #DC3635 50%, #fff 50%, #fff 100%);
+  border: solid 1px #DC3635;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 7px;
+  width: 356px;
+  outline: none;
+  transition: background 450ms ease-in;
+  /* -webkit-appearance: none; */
+  fill: #EBEBEB;
+stroke-width: 2px;
+stroke: #DC3635;
+filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.29));
+}
+
+/* service */
+.serve{
+  padding: 0px 65px 35px;
+}
+.ser{
+  text-align: center;
+  padding: 60px 0;
+}
+.ser h1{
+  font-size: 40px;
+  padding: 0px 0px 30px;
+}
+.serve1{
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  gap: 4rem;
+  fl
+}
+.serve2{
+  border-radius: 10px;
+background: #FFECEC;
+padding: 35px 25px;
+cursor: pointer;
+}
+.serve2 h2{
+  padding: 15px 0;
+}
+svg{
+  height: 55px;
+}
+
+@media (max-width: 900px) {
+  .H{
+    font-size: 30px;
+  }
+  .F{
+    font-size: 20px;
+  }
+  .btn{
+    display: block;
+  }
+  .about1{
+    background: blue;
+  }
+  .about{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    padding: 50px 50px;
+  }
+
+  .serve1{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero{
+    padding: 60px 70px;
+  }
+  .land{
+    background: url(../images/yyy.png);
+    background-size: cover;
+  }
+}
+
